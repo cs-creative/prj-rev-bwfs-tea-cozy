@@ -1,0 +1,136 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  margin: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.menu {
+  display: inline-block;
+  align-items: flex-end;
+  text-align: right;
+  width: 100%
+}
+
+.menu-items {
+  text-decoration: underline;
+  padding-right: 30px;
+}
+
+
+/* Hero Image */
+
+.hero {
+  display: inline-flex;
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 700px;
+  padding-top: 35px;
+  margin-top: 60px;
+}
+
+.hero-text {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+
+/* Tea of the Month */
+
+.container {
+  padding-top: 70px;
+}
+
+.flex-container {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 1000px;
+}
+
+.item img {
+  padding: 15px;
+  width: 300px;
+  height: 200px;
+}
+
+.item span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Locations */
+
+.locations {
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 500px;
+  padding-top: 40px;
+  margin-top: 70px;
+  margin: 70px auto;
+}
+
+.flex-locations {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.address {
+  width: 300px;
+  background-color: black;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1.0;
+}
+
+.address span {
+  line-height: 60px;
+}
+
+
+/* Footer */
+
+footer {
+  height: 200px;
+  width: 100%;
+
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+
+h5 {
+  line-height: 40px;
+}
